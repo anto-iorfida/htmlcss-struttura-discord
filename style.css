@@ -37,14 +37,60 @@ header{
     width: 25%;
     text-align: end;
 }
+
+
+
+
+
+   
 .section-1{
-    background-color: blue;
     height: 500px;
+    background-color: blue;
     padding: 50px 0;
 }
-.element{
+
+.element-1{
     height: 100%;
     max-width: 900px;
     background-color: rosybrown;
     margin: 0 auto;
 }
+.section-2{
+    background-color: white;
+    height: 600px;
+    padding: 50px 0;
+}
+.section-3{
+    background-color: gray;
+    height: 600px;
+    padding: 50px 0;
+}
+.contenitor-section{
+    max-width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.section-2 .element-1{
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+
+}
+.section-2 .element-2{
+    width: 40%;
+    height: 100%;
+    background-color: salmon;
+}
+.section-3 .element-1{
+    width: 40%;
+    height: 100%;
+    background-color: lightblue;
+
+}
+.section-3 .element-2{
+    width: 60%;
+    height: 100%;
+    background-color: salmon;
+}
+
