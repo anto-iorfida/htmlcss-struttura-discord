@@ -12,7 +12,6 @@ header{
      height: 80px;
      background-color: #add8e6;
      border-bottom: 1px solid rgba(0,0,0,0.1);
-     margin-bottom: 12px;
 
 }
 .conteiner{
@@ -21,7 +20,6 @@ header{
     margin: 0 auto;
     background-color: #daa520;
     display: flex;
-
 }
 .box-header{
     border: 2px dashed black;
@@ -29,19 +27,24 @@ header{
     padding: 10px;
 }
 .box-left{
-    width: 25%;
-    
+    width: 25%;    
 }
 .box-center{
     width: 50%;
     text-align: center;
-    
-
-
 }
 .box-right{
     width: 25%;
     text-align: end;
-    
-
+}
+.section-1{
+    background-color: blue;
+    height: 500px;
+    padding: 50px 0;
+}
+.element{
+    height: 100%;
+    max-width: 900px;
+    background-color: rosybrown;
+    margin: 0 auto;
 }
