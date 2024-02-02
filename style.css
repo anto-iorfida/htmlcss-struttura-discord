@@ -6,3 +6,42 @@
     padding: 0;
     box-sizing: border-box;
 } 
+
+header{
+     padding: 18px 0;
+     height: 80px;
+     background-color: #add8e6;
+     border-bottom: 1px solid rgba(0,0,0,0.1);
+     margin-bottom: 12px;
+
+}
+.conteiner{
+    max-width: 1180px;
+    /* height: 45px; */
+    margin: 0 auto;
+    background-color: #daa520;
+    display: flex;
+
+}
+.box-header{
+    border: 2px dashed black;
+    height: 100%;
+    padding: 10px;
+}
+.box-left{
+    width: 25%;
+    
+}
+.box-center{
+    width: 50%;
+    text-align: center;
+    
+
+
+}
+.box-right{
+    width: 25%;
+    text-align: end;
+    
+
+}
