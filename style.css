@@ -5,8 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
+    border-style: dashed;
 } 
 
+:not(div){
+border-style: none;
+}
+/*-------------------
+    HEADER
+-------------------*/
 header{
      padding: 18px 0;
      height: 80px;
@@ -37,11 +45,11 @@ header{
     width: 25%;
     text-align: end;
 }
+/*-------------------
+    MAIN
+-------------------*/
 
-
-
-
-
+/* ----SIZE , PADDING AND BACKGROUND-COLORE SECTION ---- */
    
 .section-1{
     height: 500px;
@@ -74,82 +82,82 @@ header{
     padding-top: 10px;
     padding-bottom: 40px;
 }
+/* ----SPECIFIC RULES ---- */
 .contenitor-section{
     max-width: 1180px;
     height: 100%;
     margin: 0 auto;
     display: flex;
 }
-.section-1 .element-1{
+.contenitor-section div {
     height: 100%;
-    max-width: 900px;
-    background-color: rosybrown;
-    margin: 0 auto;
 }
+/* ----ELEMENT IN SECTION ---- */
+/* ----SECTION 1 ----------------------------------- */
+.section-1 .contenitor-section{
+    max-width: 900px;
+}
+.section-1 .element-1{
+    width: 900px;
+    background-color: rosybrown;
+}
+/* ----SECTION 2 ----------------------------------- */
 .section-2 .element-1{
     width: 60%;
-    height: 100%;
     background-color: lightblue;
 
 }
 .section-2 .element-2{
     width: 40%;
-    height: 100%;
     background-color: salmon;
 }
+/* ----SECTION 3 ----------------------------------- */
 .section-3 .element-1{
     width: 40%;
-    height: 100%;
     background-color: lightblue;
-
 }
 .section-3 .element-2{
     width: 60%;
-    height: 100%;
     background-color: salmon;
 }
+/* ----SECTION 4 --------------------------------- */
 .section-4 .element-1{
     width: 60%;
-    height: 100%;
     background-color: lightblue;
-
 }
 .section-4 .element-2{
     width: 40%;
-    height: 100%;
     background-color: salmon;
 }
-
+/* ----SECTION 5 --------------------------------- */
 .section-5 .element-1{
     width: 100%;
-    height: 100%;
     background-color: green;
 }
+/* ----SECTION 6 -------------------------------- */
 .section-6 .element-1{
     width: 360px;
-    height: 100%;
     background-color: salmon
 }
 .section-6 .element-2{
     width: calc((100% - 360px) / 4);
-    height: 100%;
     background-color: lightblue;
 }
 .section-6 .element-3{
     width: calc((100% - 360px) / 4);
-    height: 100%;
     background-color: lightblue;
 }
 .section-6 .element-4{
     width: calc((100% - 360px) / 4);
-    height: 100%;
     background-color: lightblue;
 }
 .section-6 .element-5{
     width: calc((100% - 360px) / 4);
-    height: 100%;
     background-color: lightblue;
 }
+/*-------------------
+    FOOTER
+-------------------*/
 footer{
     padding-top: 30px;
     height: 110px;
@@ -168,11 +176,8 @@ footer{
     width: 50px;
     height: 30px;
     background-color: orange;
-    
-
 }
 .box-footer-right{
-
     width: 50px;
     height: 30px;
     background-color: orange;
